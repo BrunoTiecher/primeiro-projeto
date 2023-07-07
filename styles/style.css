@@ -114,6 +114,7 @@ padding: 1%;
     font-size: 1rem;
     font-family: var(--fonte-secundaria);
     flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__curriculo{
