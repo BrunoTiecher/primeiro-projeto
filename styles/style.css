@@ -12,8 +12,8 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 body{
@@ -125,6 +125,8 @@ padding: 1%;
     gap: 1.25rem;
     width: 100%;
     justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .apresentacao__curriculo__titulo{
     color: var(--cor-terciaria);
