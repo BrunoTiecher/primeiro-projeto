@@ -144,8 +144,12 @@ padding: 1%;
     font-family: var(--fonte-secundaria);
 }
 
+.apresentacao__curriculo__dados3{
+    gap: 10px;
+}
+
 .apresentacao__curriculo__dados4{
-    column-count: 3;
+    column-count: 4;
     font-family: var(--fonte-secundaria);
 }
 
