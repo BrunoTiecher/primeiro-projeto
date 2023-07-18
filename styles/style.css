@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria:#454545;
-    --cor-secundaria:#FFA559;
-    --cor-terciaria: #FF6000;
-    --cor-hover: #F1A661;
+    --cor-primaria:#cfcfcf;
+    --cor-secundaria:#232323;
+    --cor-terciaria:#0a0a0a;
+    --cor-hover: #a2a2a2;
 
     --fonte-primaria: 'Krona One', sans-serif; 
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -177,14 +177,13 @@ padding: 1%;
 
 @media (max-width: 1200px) {
     .cabecalho{
-        padding: 5%;
+        padding:5% 15%;
     }
 
     .cabecalho__menu{
         justify-content: center;
-        padding: auto;
         display:inline-flex;
-        gap: 20px
+        gap:1.25rem;
     }
 
     .apresentacao {
@@ -197,9 +196,23 @@ padding: 1%;
 
     .apresentacao__curriculo{
         width: 120%;
-        
     }
 
+    .apresentacao__curriculo__dados4{
+        column-count: 1;
+    }
+
+    .apresentacao__curriculo__dados5{
+        column-count: 1;
+    }
+
+    .apresentacao__curriculo__dados2{
+        column-count: 1;
+    }
+
+    .apresentacao__curriculo__dados1{
+        gap: 20px;
+    }
     }
 
 
